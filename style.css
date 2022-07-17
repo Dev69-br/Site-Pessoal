@@ -4,46 +4,49 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-
-main{
-    text-align: center;
+#ft{
+    width: 15rem;
+    border-radius: 150px;
+    vertical-align: bottom;
+    position: absolute;
+    top: 0;
+    right: 10rem;
+    margin-top: 10px;
+    
 }
 
-h1 img{
-    width: 15%;
-    border-radius: 100px;
-    margin-top: 50px;
-}
-
-ul{
-    margin-top: 20px;
-    text-align: center;
-    display: inline-block;
-}
-
-li{
-    margin: 10px;
+.sobre{
     background: white;
-    border-radius: 50px;
-    padding: 20px 60px;
-    font-size: 2em;
-    cursor: pointer;
+    padding: 5rem;
+    display: inline-block;
+    border: 3px solid #000;
+    border-radius: 40px;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
 }
 
-p{
-    color: antiquewhite;
-    font-size: 2em;
+.sobre h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-li:hover{
-    background-color: rgb(255, 1, 119);
-    transform: scale(1.1);
-    color: antiquewhite;
-}
-
-li a{
+.sobre a{
     text-decoration: none;
-    color: black;
+    color: red;
+}
+.sobre p{
+    font-family: sans-serif;
+    
+}
+
+#texto-projetos{
+    font-size: 40px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 480px) {

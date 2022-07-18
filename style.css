@@ -49,6 +49,24 @@ body{
     margin-left: 10px;
 }
 
+.projetos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.projetos li{
+    background: white;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border:3px solid #000;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 480px) {
     h1 > img{
         width: 80%;

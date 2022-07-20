@@ -1,19 +1,18 @@
-
-body{
-    background-image: linear-gradient(to right,#08678C,#074973,#032859,#011C40);
+body {
+    background-image: linear-gradient(to right, #08678C, #074973, #032859, #011C40);
     font-family: 'Lato', sans-serif;
     background-repeat: repeat;
     height: 100vh;
     width: 100%;
 }
 
-#ft{
+#ft {
     width: 15%;
     border-radius: 150px;
-    
+
 }
 
-.sobre{
+.sobre {
     background: white;
     padding: 2rem;
     display: flex;
@@ -21,83 +20,87 @@ body{
     border-radius: 40px;
     width: 70%;
     margin-top: 3rem;
-    
+
 }
 
-.sobre h1{
+.sobre h1 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.sobre a{
+.sobre a {
     text-decoration: none;
     color: red;
 }
-.sobre p{
+
+.sobre p {
     font-family: sans-serif;
     font-size: 2rem;
-    
+
 }
 
-#texto-projetos{
+#texto-projetos {
     font-size: 40px;
     color: white;
     margin-top: 40px;
     margin-left: 10px;
 }
 
-.projetos{
+.projetos {
     width: 95%;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-.meu{
+.meu {
     display: flex;
     justify-content: center;
 
 
 }
 
-#you_img{
+#you_img {
     width: 50%;
 }
 
-#net_img{
+#net_img {
     width: 50%;
 }
 
-.projetos li{
+.projetos li {
     display: inline-block;
     background: white;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    border:3px solid #000;
+    border: 3px solid #000;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border-radius: 20px;
-    
+
 }
-@media all and (max-width: 669px){
- body{
-    height: 100%;
- }
 
- .projetos li{
-    width: 50%;
- }
- #ft{
-    width: 50%;
- }
- .sobre{
-    display: inline-block;
- }
+@media all and (max-width: 669px) {
+    body {
+        height: 100%;
+    }
 
- .sobre p{
-    font-size: 1em;
- }
+    .projetos li {
+        width: 50%;
+    }
+
+    #ft {
+        width: 50%;
+    }
+
+    .sobre {
+        display: inline-block;
+    }
+
+    .sobre p {
+        font-size: 1em;
+    }
 
 }

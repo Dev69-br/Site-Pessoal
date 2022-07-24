@@ -68,6 +68,10 @@ body {
     width: 50%;
 }
 
+.po_img{
+    width: 50%;
+}
+
 .projetos li {
     display: inline-block;
     background: white;
